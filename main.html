@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="formularioCadastro">
+        <label id="labelUsuario">Insira seu nome de Usuario: </label>
+        <input id="usuario" name="usuario" type="text" placeholder=".">
+        
+        <label id="labelSenha">Insira sua senha: </label>
+        <input id="senha" name="senha" type="password" placeholder="******">
+
+        <label id="labelConfirmaSenha">Confirme sua senha: </label>
+        <input id="confirmarSenha" name="senha" type="password" placeholder="******">
+        
+        <label id="labelData">Insira sua data de nascimento: </label>
+        <input id="dataNascimento" name="dataNascimento" type="date" placeholder="__/__/____">
+    </form>
+    <button onclick="submit()">ENVIAR</button>
+    <div id="confirmation"></div>
+    <script src="script.js"></script>
+</body>
+</html>

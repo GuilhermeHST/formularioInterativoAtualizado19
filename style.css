@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 35vh;
+}
+
+button{
+    margin-top: 1vh;
+    height: 3vh;
+    width: 8vh;
+}
+
+label{
+    margin-top: 0.5vh;
+}
